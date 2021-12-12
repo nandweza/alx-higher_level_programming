@@ -25,4 +25,5 @@ This project's purpose is to practice Test-Driven Development. Every task is com
 101-lazy_matrix_mul.py	Python function that multiplies 2 matrices by using the module NumPy
 <br>
 102-python.c	C function that prints Python strings
+<br>
 tests	Folder containing all the interactive tests and unittests for the python scripts of this project
