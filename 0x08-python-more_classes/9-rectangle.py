@@ -120,7 +120,7 @@ class Rectangle:
         width == height == size.
         Args:
            size: size to set for new rectangle
-        Return:
-           The new Rectangle instance
+        Returns:
+             The new Rectangle instance
         """
         return cls(size, size)
