@@ -1,8 +1,15 @@
 #!/usr/bin/python3
+"""Module 0-lookup.
+Returns a list of available attributes and methods of an obj.
+"""
+
+
 def lookup(obj):
-    """returns the list of available attributes and methods of an object"""
-    ret = dir(obj)
-    if hasattr(obj,'__bases__'):
-        for base in obj.__bases__:
-            ret += lookup(base)
-    return ret
+    """returns the list of available attributes and methods of an object
+
+    Args:
+        - obj: object to look into
+
+    """
+
+    return dir(obj)
