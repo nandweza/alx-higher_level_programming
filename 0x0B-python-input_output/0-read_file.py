@@ -5,6 +5,12 @@ creates a function that reads a text file.
 
 
 def read_file(filename=""):
-    """a function that reads a text file(UTF8) and prints it to stdout."""
-    with open('my_file_0.txt', encoding='utf-8') as myfile:
-        print(myfile.read())
+    """a function that reads a text file(UTF8)
+    and prints it to stdout.
+
+    Args:
+       - filename: name of the file
+    """
+    with open(filename) as myfile:
+        read_text = myfile.read()
+        print(read_text, end="")
