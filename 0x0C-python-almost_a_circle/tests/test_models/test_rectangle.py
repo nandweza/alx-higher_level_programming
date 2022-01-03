@@ -63,6 +63,36 @@ class TestRectangle(unittest.TestCase):
         self.assertTrue(issubclass(Rectangle, Base))
         self.assertFalse(isinstance(Rectangle, Base))
 
+    def test_2_3(self):
+        """Test Rectangle class: check for wrong attributes."""
+
+        with self.assertRaises(TypeError) as x:
+            r = Rectangle("Hello", 2)
+        self.assertEqual("width must be an integer", str(x.exception))
+        with self.assertRaises(TypeError) as x:
+            r = Rectangle(2, "World")
+        self.assertEqual("height must be an integer", str(x.exception))
+        with self.assertRaises(TypeError) as x:
+            r = Rectangle(1, 2, "Foo", 3)
+        self.assertEqual("x must be an integer", str(x.exception))
+        with self.assertRaises(TypeError) as x:
+            r = Rectangle(1, 2, 2, "Bar")
+        self.assertEqual("y must be an integer", str(x.exception))
+        with self.assertRaises(ValueError) as x:
+            r = Rectangle(0, 2)
+        self.assertEqual("width must be > 0", str(x.exception))
+        with self.assertRaises(ValueError) as x:
+            r = Rectangle(2, 0)
+        self.assertEqual("height must be > 0", str(x.exception))
+        with self.assertRaises(ValueError) as x:
+            r = Rectangle(2, -3)
+        self.assertEqual("height must be > 0", str(x.exception))
+        with self.assertRaises(ValueError) as x:
+            r = Rectangle(2, 5, -5, 6)
+        self.assertEqual("x must be >= 0", str(x.exception))
+        with self.assertRaises(ValueError) as x:
+            r = Rectangle(2, 8, 9, -65)
+        self.assertEqual("y must be >= 0", str(x.exception))
 
     def test_2_5(self):
         """Test for public method area with correct args"""
