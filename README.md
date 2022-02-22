@@ -5,7 +5,7 @@
 <br>
 <p>This repo contains higher level programming languages and projects learned at ALX Holberton School</p>
 <br>
-<h2>Table of contents.</h2>
+<h2>Table Of Contents.</h2>
 <br>
 <ol>
   <li>0x00-python-hello_world</li>
