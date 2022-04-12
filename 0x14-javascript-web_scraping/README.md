@@ -4,7 +4,7 @@
 <br>
 <p>For this project, we are learning how to work with JSON data and we scrapping.</p>
 <br>
-<2>Table of Contents</2>
+<h2>Table of Contents</h2>
 <br>
 <table>
 <tr>
