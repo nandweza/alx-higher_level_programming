@@ -1,0 +1,50 @@
+<h>0x14. JavaScript - Web scraping</h1>
+<br>
+<h2>Description</h2>
+<br>
+<p>For this project, we are learning how to work with JSON data and we scrapping.</p>
+<br>
+<2>Table of Contents</2>
+<br>
+<table>
+<tr>
+<th>Files</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>0-readme.js</td>
+<td>script that reads and prints the content of a file.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</table>
