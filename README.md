@@ -2,11 +2,9 @@
 
 ![python and js](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnqnIEZbCC20DQqbHpHnRQcrxV2CUUktuYXw&usqp=CAU)
 
-## Description
-
 This repo contains higher level programming languages and projects learned at **ALX Holberton School**
 
-## Technologies 
+## Technologies and Languages
 `Python` `JavaScript` `SQL`
 
 ## Table Of Contents.
@@ -32,3 +30,6 @@ This repo contains higher level programming languages and projects learned at **
 + [0x13-javascript_objects_scopes_clos](https://github.com/nandweza/alx-higher_level_programming/tree/master/0x13-javascript_objects_scopes_closures)
 + [0x14-javascript-web_scraping](https://github.com/nandweza/alx-higher_level_programming/tree/master/0x14-javascript-web_scraping)
 + [0x15-javascript-web_jquery](https://github.com/nandweza/alx-higher_level_programming/tree/master/0x15-javascript-web_jquery)
+
+## Authors
++ Nandweza Allan [`Github`](https://github.com/nandweza) [`Gmail`](allannandweza@gmail.com) [`Yahoo`](nandwezaallan@yahoo.com) [`twitter`](https://twitter.com/allannandweza) [`LinkedIn`](http://www.linkedin.com/in/nandweza-allan-054a21218)
