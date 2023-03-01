@@ -2,7 +2,7 @@
 <br>
 <h2>Description</h2>
 <br>
-<p>For this project, we are learning how to work with JSON data and we scrapping.</p>
+<p>For this project, we are learning how to work with JSON data and web scrapping.</p>
 <br>
 <h2>Table of Contents</h2>
 <br>
